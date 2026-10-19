@@ -21,3 +21,7 @@ Open `http://127.0.0.1:5173` or `http://127.0.0.1:5173/gamba`.
 - `dist/assets/` — self-hosted fonts and favicon
 
 The page is served at both `/` and `/gamba`. All leaderboard links open the supplied Gamba URL in a new tab.
+
+## Vercel
+
+Import this repository with the repository root as the Root Directory. The committed `vercel.json` configures a static site, skips installation and building, and publishes `dist/` as the site root. Pushes to `main` trigger Vercel's connected Git deployment.
